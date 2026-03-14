@@ -5,7 +5,7 @@ print("Введите целые числа. Для завершения вве�
 
 while True:
     user_input = input("Введите число: ")
-    if user_input.lower() == "stop":
+    if user_input == "stop":
         break
     try:
         num = int(user_input)
